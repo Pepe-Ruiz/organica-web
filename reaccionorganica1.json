@@ -1,0 +1,64 @@
+{
+    "sustitucion": {
+        "reac1": {
+            "reactivos": ["CCBr", "O"],
+            "producto": "CCO"
+        },
+        "reac2": {
+            "reactivos": ["CCCl", "O"],
+            "producto": "CCO"
+        },
+        "reac3": {
+            "reactivos": ["CCBr", "N"],
+            "producto": "CCN"
+        }
+    },
+    "adicion": {
+        "reac1": {
+            "reactivos": ["C=C", "Br"],
+            "producto": "CCBr"
+        },
+        "reac2": {
+            "reactivos": ["C=CC", "Br"],
+            "producto": "CC(Br)C"
+        },
+        "reac3": {
+            "reactivos": ["C=CC", "O"],
+            "producto": "CC(O)C"
+        },
+        "reac4": {
+            "reactivos": ["C#CC", "Br"],
+            "producto": "C=C(Br)C"
+        },
+        "reac5": {
+            "reactivos": ["CC#C", "Cl"],
+            "producto": "C=C(Cl)C"
+        },
+        "reac6": {
+            "reactivos": ["c1ccccc1", "[OH][N+](=O)[O-]"],
+            "producto": "c1ccc(cc1)[N+](=O)[O-]"
+        }
+    },
+    "eliminacion":{
+        "reac1": {
+            "reactivos": ["CCC(O)C", "[OH][S](=O)(=O)[OH]"],
+            "producto": "CC=CC"
+        }
+    },
+    "adicion_eliminacion":{
+        "reac1": {
+            "reactivos": ["CCC(=O)O", "CCO"],
+            "producto": "CCC(=O)OCC"
+        }
+    },
+    "oxidacion":{
+        "reac1": {
+            "reactivos": ["CCO", "[O-][Cr](=O)[O-][Cr](=O)[O-]"],
+            "producto": "CC(=O)"
+        },
+        "reac2": {
+            "reactivos": ["CC(=O)", "[O-][Cr](=O)[O-][Cr](=O)[O-]"],
+            "producto": "CC(=O)O"
+        }
+    }
+}

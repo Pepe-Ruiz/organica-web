@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: organica-web
+    env: python
+    buildCommand: ""
+    startCommand: "python InicioOrganica.py"
+    plan: free

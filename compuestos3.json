@@ -1,0 +1,319 @@
+{
+    "alcanos": [
+        {
+            "nombre": "Metano",
+            "smiles": "C"
+        },
+        {
+            "nombre": "Etano",
+            "smiles": "CC"
+        },
+        {
+            "nombre": "Propano",
+            "smiles": "CCC"
+        },
+        {
+            "nombre": "Butano",
+            "smiles": "CCCC"
+        },
+        {
+            "nombre": "2,3-dimetilButano",
+            "smiles": "CC(C)C(C)C"
+        }
+    ],
+    
+    "alquenos": [
+        {
+            "nombre": "Eteno",
+            "smiles": "C=C"
+        },
+        {
+            "nombre": "Propeno",
+            "smiles": "CC=C"
+        },
+        {
+            "nombre": "But-1-eno",
+            "smiles": "CCC=C"
+        },
+        {
+            "nombre": "But-2-eno",
+            "smiles": "CC=CC"
+        },
+        {
+            "nombre": "2,3-dimetilbut-2-eno",
+            "smiles": "CC(C)=C(C)C"
+        }
+    ], 
+    
+    "alquinos": [
+        {
+            "nombre": "Etino",
+            "smiles": "C#C"
+        },
+        {
+            "nombre": "Propino",
+            "smiles": "CC#C"
+        },
+        {
+            "nombre": "3-metilbut-1-ino",
+            "smiles": "C#CC(C)C"
+        }
+    ],
+    
+    "alcoholes": [
+        {
+            "nombre": "Metanol",
+            "smiles": "CO"
+        },
+        {
+            "nombre": "Etanol",
+            "smiles": "CCO"
+        },
+        {
+            "nombre": "2-metilpropan-1-ol",
+            "smiles": "CC(CO)C"
+        },
+        {
+            "nombre": "Propan-1-ol",
+            "smiles": "CCCO"
+        },
+        {
+            "nombre": "Butan-1-ol",
+            "smiles": "CCCCO"
+        },
+        {
+            "nombre": "Propan-1-ol",
+            "smiles": "CCCCCO"
+        },
+        {
+            "nombre": "But-3-in-1-ol",
+            "smiles": "C#CCCO"
+        },
+        {
+            "nombre": "Fenol",
+            "smiles": "c1ccccc1O"
+        }
+    ],
+    "aldehidos": [
+        {
+            "nombre": "Metanal",
+            "smiles": "C(=O)"
+        },
+        {
+            "nombre": "Etanal",
+            "smiles": "CC(=O)"
+        },
+        {
+            "nombre": "2-metilpropanal",
+            "smiles": "CC(C)C(=O)"
+        },
+        {
+            "nombre": "Propanal",
+            "smiles": "CCC(=O)"
+        },
+        {
+            "nombre": "Butanal",
+            "smiles": "CCCC(=O)"
+        },
+        {
+            "nombre": "Pentanal",
+            "smiles": "CCCCC(=O)"
+        },
+        {
+            "nombre": "But-3-inal",
+            "smiles": "C#CCC(=O)"
+        },
+        {
+            "nombre": "Propanodial",
+            "smiles": "C(=O)CC(=O)"
+        },
+        {
+            "nombre": "2-hidroxibutanal",
+            "smiles": "CC(O)C(=O)"
+        }
+    ],
+    "eteres": [
+        {
+            "nombre": "Dietileter",
+            "smiles": "CCOCC"
+        },
+        {
+            "nombre": "Etilmetileter",
+            "smiles": "COCC"
+        },
+        {
+            "nombre": "Etilfenileter",
+            "smiles": "CCOc1ccccc1"
+        },
+        {
+            "nombre": "Metoxietano",
+            "smiles": "COCC"
+        },
+        {
+            "nombre": "Metoxibenceno",
+            "smiles": "COc1ccccc1"
+        }
+    ],
+        "cetonas":[
+        {
+            "nombre": "Propanona o acetona",
+            "smiles": "CC(=O)C"
+        },
+        {
+            "nombre": "Butanona",
+            "smiles": "CC(=O)CC"
+        },
+        {
+            "nombre": "Pentan-2-ona",
+            "smiles": "CC(=O)CCC"
+        },
+        {
+            "nombre": "Pentano-2,4-diona",
+            "smiles": "CC(=O)CC(=O)C"
+        },
+        {
+            "nombre": "Metilpentanodiona",
+            "smiles": "CC(=O)C(C)C(=O)C"
+        }
+    ],
+    "acidos":[
+        {
+            "nombre": "Acido etanoico",
+            "smiles": "CC(=O)O"
+        },
+        {
+            "nombre": "Acido propanoico",
+            "smiles": "CCC(=O)O"
+        },
+        {
+            "nombre": "Etanodioco",
+            "smiles": "OC(=O)C(=O)O"
+        },
+        {
+            "nombre": "Acido 3-metilbutanoico",
+            "smiles": "CC(C)CC(=O)O"
+        },
+        {
+            "nombre": "Acido 2-metilpent-3-enoico",
+            "smiles": "CC=CC(C)C(=O)O"
+        },
+        {
+            "nombre": "Acido 3-hidroxipentanoico",
+            "smiles": "CCC(O)CC(=O)O"
+        },
+        {
+            "nombre": "Acido 3-aminopentanoico",
+            "smiles": "CCC(N)CC(=O)O"
+        }
+    ],
+    "sales":[
+        {
+            "nombre": "Etanoato de sodio",
+            "smiles": "CC(=O)[O-][Na+]"
+        },
+        {
+            "nombre": "Propanoato de potasio",
+            "smiles": "CCC(=O)[O-][K+]"
+        }
+    ],
+    "esteres":[
+        {
+            "nombre": "Etanoato de etilo",
+            "smiles": "CC(=O)OCC"
+        },
+        {
+            "nombre": "Etanoato de butilo",
+            "smiles": "CC(=O)OCCCC"
+        },
+        {
+            "nombre": "Benzoato de etilo",
+            "smiles": "c1ccccc1C(=O)OCC"
+        },
+        {
+            "nombre": "2-metilpropanoato de metilo",
+            "smiles": "CC(C)C(=O)OC"
+        }
+
+    ],
+    "aminas":[
+        {
+            "nombre": "Metanamina o metilamina",
+            "smiles": "CN"
+        },
+        {
+            "nombre": "Propan-2-amina o 1-metiletilamina",
+            "smiles": "CC(N)C"
+        },
+        {
+            "nombre": "Metiletanamina o metiletilamina",
+            "smiles": "C(NCC)"
+        },
+        {
+            "nombre": "Metilmetilpropanamina o dimetilproprilamina",
+            "smiles": "C(N(C)CCC)"
+        }
+    ],
+    "amidas":[
+        {
+            "nombre": "Propanamida",
+            "smiles": "CCC(=O)N"
+        },
+        {
+            "nombre": "Etanamida",
+            "smiles": "CC(=O)N"
+        },
+        {
+            "nombre": "But-3-enamida",
+            "smiles": "C=CCC(=O)N"
+        },
+        {
+            "nombre": "N-etiletanamida",
+            "smiles": "CC(=O)(NCC)"
+        },
+        {
+            "nombre": "N,N-dimetilpropanamida",
+            "smiles": "CCC(=O)(N(C)(C))"
+        }
+    ],
+    "nitrilos":[
+        {
+            "nombre": "Etanonitrilo o cianuro de metilo",
+            "smiles": "CC#N"
+        },
+        {
+            "nombre": "Butanodinitrilo",
+            "smiles": "N#CCCC#N"
+        },
+        {
+            "nombre": "Propenonitrilo o cianuro de etenilo",
+            "smiles": "C=CC#N"
+        },
+        {
+            "nombre": "Hex-2-enonitrilo",
+            "smiles": "CC=CCCC#N"
+        },
+        {
+            "nombre": "Pent-2-inodinitrilo",
+            "smiles": "N#CCC#CC#N"
+        }
+    ],
+    "nitros":[
+        {
+            "nombre": "2,4-dinitropentano",
+            "smiles": "CC(N(=O)=O)CC(N(=O)=O)CC"
+        },
+        {
+            "nombre": "Nitrometano",
+            "smiles": "C(N(=O)=O)"
+        },
+        {
+            "nombre": "Nitroetano",
+            "smiles": "CC(N(=O)=O)"
+        },
+        {
+            "nombre": "2-nitrobutano",
+            "smiles": "CCC(C)(N(=O)=O)"
+        }
+        
+    ]
+}

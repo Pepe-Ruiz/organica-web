@@ -1,0 +1,85 @@
+{
+  "funcional": {
+    "comp1": {
+      "nombre": "Alcohol / Éter",
+      "isomeros": [
+        {"nombre": "Etanol", "smiles": "CCO"},
+        {"nombre": "Dimetileter", "smiles": "COC"}
+      ]
+    },
+    "comp2":{
+      "nombre":"Ácido propanoico",
+      "isomeros":[
+        {"nombre":"ácido propanoico","smiles":"CCC(=O)O"},
+        {"nombre":"Etanoato de metilo","smiles":"CC(=O)OC"}
+        
+      ]
+    },
+    "comp3":{
+      "nombre":"Propanal",
+      "isomeros":[
+        {"nombre":"Propanal","smiles":"CCC(=O)"},
+        {"nombre":"Propanona","smiles":"CC(=O)C"}
+      ]
+    }
+  },
+  "posicion": {
+    "comp4": {
+      "nombre": "Propanol",
+      "isomeros": [
+        {"nombre": "Propan-1-ol", "smiles": "CCCO"},
+        {"nombre": "Propan-2-ol", "smiles": "CC(O)C"}
+      ]
+    }
+  },
+  "cadena": {
+    "comp5": {
+      "nombre": "Butano / 2-metilpropano",
+      "isomeros": [
+        {"nombre": "n-butano", "smiles": "CCCC"},
+        {"nombre": "2-metilpropano", "smiles": "CC(C)C"}
+      ]
+    },
+    "comp6": {
+      "nombre": "Hexano (variantes de cadena/cíclicas)",
+      "isomeros": [
+        {"nombre": "Hex-1-eno", "smiles": "C=CCCCC"},
+        {"nombre": "Metilciclopentano", "smiles": "CC1CCCC1"},
+        {"nombre": "Ciclohexano", "smiles": "C1CCCCC1"}
+      ]
+    },
+    "comp7": {
+      "nombre": "Pentano",
+      "isomeros": [
+        {"nombre": "n-pentano", "smiles": "CCCCC"},
+        {"nombre": "2-metilbutano", "smiles": "CC(C)CC"},
+        {"nombre": "2,2-dimetilpropano", "smiles": "CC(C)(C)C"}
+      ]
+    }
+  },
+  "cis_trans": {
+    "comp6": {
+      "nombre": "Buteno",
+      "isomeros": [
+        {"nombre": "cisbut-2-eno", "smiles": "C/C=C\\C"},
+        {"nombre": "transbut-2-eno", "smiles": "C/C=C/C"}
+      ]
+    },
+    "comp7":{
+      "nombre":"1,2-dicloeteno",
+      "isomeros":[
+        {"nombre":"cis-1,2-dicloroeteno","smiles":"Cl/C=C\\Cl"},
+        {"nombre": "trans-1,2-dicloroeteno","smiles":"Cl/C=C/Cl"}
+      ]
+    }
+  },
+  "optica": {
+    "comp8": {
+      "nombre": "Ácido 2-hidroxipropanoico(Ácido láctico)",
+      "isomeros": [
+        {"nombre": "L-ácido láctico", "smiles": "CC(C(=O)O)O"},
+        {"nombre": "D-ácido láctico", "smiles": "C[C@H](O)C(=O)O"}
+      ]
+    }
+  }
+}
